@@ -16,7 +16,7 @@ services:
     image: nginx:latest
     container_name: image_nginx
     ports:
-      - "8080:8080"
+      - "8000:80"
     volumes:
       - images:/images
       - logs:/var/log/nginx

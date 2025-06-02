@@ -10,7 +10,7 @@ Cервис для просмотра и хранения изображений
 `docker compose down -v`
 
 **Доступ к сервису:**  
-[http://localhost:8080](http://localhost:8080)
+[http://localhost:8000](http://localhost:8000)
 
 ------
 
