@@ -15,6 +15,6 @@ WORKDIR /app
 COPY --from=builder /install /usr/local
 
 # Копируем оставшиеся файлы проекта
-COPY . .
+COPY .. .
 
 CMD ["python", "app.py"]
